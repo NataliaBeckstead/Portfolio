@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "styled-components";
-import VsLogo from "../images/vss.png";
-import PhLogo from "../images/ph.png";
-import IllustrLogo from "../images/ill.png";
+import React from "react"
+import styled from "styled-components"
+import VsLogo from "../images/vss.png"
+import PhLogo from "../images/ph.png"
+import IllustrLogo from "../images/ill.png"
 
 const SkillsConteiner = styled.div `
     display: flex;

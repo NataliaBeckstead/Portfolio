@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import Avatar from "../images/avatar.jpg";
-import TopNavigation from "./TopNavigation";
+import React from "react"
+import styled from "styled-components"
+import Avatar from "../images/avatar.jpg"
+import TopNavigation from "./TopNavigation"
 
 
 const HeaderContainer = styled.div `

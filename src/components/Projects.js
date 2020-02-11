@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "styled-components";
-import PicM from "../images/mp.jpg";
-import Nasa from "../images/ns.jpg";
-import Todo from "../images/todo.jpg";
+import React from "react"
+import styled from "styled-components"
+import PicM from "../images/mp.jpg"
+import Nasa from "../images/ns.jpg"
+import Todo from "../images/todo.jpg"
 
 const ProjectsConteiner = styled.div `
     display: flex;
