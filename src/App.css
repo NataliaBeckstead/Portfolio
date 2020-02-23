@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat&display=swap');
+
+/* .App {
+  font-size: 62.5%;
+} */
+
+h1, h2, h3 {
+  font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-size: 2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i {
+  font-size: 3rem;
+  margin-right: 1rem;;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+.fa-html5 {
+  color: #e34f26;
+}
+  
+.fa-css3-alt {
+  color: #1572b6;
+}
+
+.fa-js {
+  color: #f7df1e;
+}
+
+.fa-less {
+  color: #214674;
+}
+
+.fa-git-alt {
+  color: #f05033;
+}
+
+.fa-python {
+  color: #376f9e;
+}
+
+.fa-react {
+  color: #376f9e;
+}
+
+.f {
+  font-size: 7rem;
+  margin-right: 3rem;
+  max-height: 5rem;
+}
+
+a:hover {
+  color: rgb(40, 40, 40);
+}
+
+.click {
+  font-size: 1.7rem;
+  color: darkblue;
 }
