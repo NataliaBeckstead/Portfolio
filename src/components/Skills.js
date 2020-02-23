@@ -7,12 +7,16 @@ import IllustrLogo from "../images/ill.png";
 const SkillsConteiner = styled.div `
     display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 `;
 
 const SkillsWrapper = styled.div `
     width: 80%;
+    @media (max-width: 500px) {
+        width: 95%;
+    }
 `;
+
 
 
 const Skills = () => {

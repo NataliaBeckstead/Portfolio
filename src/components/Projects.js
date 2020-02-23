@@ -10,6 +10,9 @@ const ProjectsConteiner = styled.div `
 
 const ProjectsWrapper = styled.div `
     width: 80%;
+    @media (max-width: 500px) {
+        width: 95%;
+    }
 `;
 
 const CardHodor = styled.div `

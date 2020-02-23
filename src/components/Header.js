@@ -11,23 +11,38 @@ const HeaderContainer = styled.div `
     padding-top: 1rem;
     @media (max-width: 800px) {
         flex-direction: column-reverse;
-      }
+    }
+`;
+
+const MainHodor = styled.div `
+    @media (max-width: 500px) {
+        text-align: center;
+    }
 `;
 
 const WrapDiv1 = styled.div `
     display: flex;
     align-items: center;
     margin-top: 5rem;
+    @media (max-width: 500px) {
+        margin-left: 2rem;
+    }
 `;
 
 const WrapDiv2 = styled.div `
     display: flex;
     align-items: center;
+    @media (max-width: 500px) {
+        margin-left: 2rem;
+    }
 `;
 
 const IconHodor = styled.div `
     display: flex;
     margin-top: 4rem;
+    @media (max-width: 500px) {
+        margin-left: 2rem;
+    }
 `;
 const Photo = styled.img `
     border-radius: 50%;
@@ -37,7 +52,7 @@ const Photo = styled.img `
 const Header = () => { 
     return (
         <HeaderContainer>
-            <div>
+            <MainHodor>
                 <h1>Natalia Beckstead</h1>
                 <h2>Full Stack Web Developer</h2>
                 <WrapDiv1>
@@ -53,7 +68,7 @@ const Header = () => {
                     {/* <i class="fab fa-linkedin-in"></i> */}
                     <a href="https://www.instagram.com/toosphoto/"><i class="fab fa-instagram"></i></a>
                 </IconHodor>
-            </div>
+            </MainHodor>
             <Photo src={Avatar} alt="Profile photo"></Photo>
         </HeaderContainer>
     );

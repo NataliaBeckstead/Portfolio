@@ -10,6 +10,9 @@ const FooterConteiner = styled.div `
 
 const FooterWrapper = styled.div `
     width: 80%;
+    @media (max-width: 500px) {
+        width: 95%;
+    }
 `;
 
 const Footer = () => {
