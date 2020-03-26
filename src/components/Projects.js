@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PicM from "../images/mp.jpg";
 import Nasa from "../images/ns.jpg";
+import Todo from "../images/todo.jpg";
 
 const ProjectsConteiner = styled.div `
     display: flex;
@@ -63,10 +64,24 @@ const Projects = () => {
                 <h2>Projects</h2>
                 <CardHodor>
                     <Card>
+                        <a href="https://github.com/NataliaBeckstead/React-Todo"><h3>ToDo list</h3></a> 
+                        <Photo src={Todo} alt="Todo list with search bar, add and delete functionality"></Photo>
+                        <a href="https://todo-list-with-react.now.sh"><p class="click">Click here to see site</p></a>
+                        <a href="https://github.com/NataliaBeckstead/React-Todo"><p class="click">Click here to see code</p></a>
+                        <p>This application build using class components.<br></br>
+                        To store data using LocalStorage.<br></br>
+                        You can add new tasks, mark tasks as finished, delete finished tasks, and search through your list.</p>
+                        <SkillHodor>
+                            <Skill>React</Skill>
+                            <Skill>LocalStorage</Skill>
+                            <Skill>CSS</Skill>
+                        </SkillHodor>
+                    </Card>
+                    <Card>
                         <a href="https://github.com/NataliaBeckstead/nasa-photo-of-the-day"><h3>NASA: Photo of the day</h3></a> 
                         <Photo src={Nasa} alt="Space photo from NASA"></Photo>
-                        <a href="https://clever-fermi-ec1eb6.netlify.com"><p class="click">Click to see site</p></a>
-                        <a href="https://github.com/NataliaBeckstead/nasa-photo-of-the-day"><p class="click">Click to see code</p></a>
+                        <a href="https://clever-fermi-ec1eb6.netlify.com"><p class="click">Click here to see site</p></a>
+                        <a href="https://github.com/NataliaBeckstead/nasa-photo-of-the-day"><p class="click">Click here to see code</p></a>
                         <p>Web application which allows you to choose any day, and enjoy increadible photos, released by NASA on that day.</p>
                         <SkillHodor>
                             <Skill>React</Skill>
@@ -78,8 +93,8 @@ const Projects = () => {
                     <Card>
                         <a href="https://github.com/Build-week-picmetric2/Marketing-Page"><h3>PicMetrick2</h3></a> 
                         <Photo src={PicM} alt="image of PicMetrick site"></Photo>
-                        <a href="https://zealous-leakey-6d3a4f.netlify.com"><p class="click">Click to see site</p></a>
-                        <a href="https://github.com/Build-week-picmetric2/Marketing-Page"><p class="click">Click to see code</p></a>
+                        <a href="https://zealous-leakey-6d3a4f.netlify.com"><p class="click">Click here to see site</p></a>
+                        <a href="https://github.com/Build-week-picmetric2/Marketing-Page"><p class="click">Click here to see code</p></a>
                         <p>Marketing page for PicMetrik2 application.</p>
                         <SkillHodor>
                             <Skill>HTML</Skill>
