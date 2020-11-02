@@ -17,7 +17,7 @@ const Wrapper = styled.div `
 
 const About = () => {
     return (
-        <AboutContainer>
+        <AboutContainer id='about'>
             <Wrapper>
                 <h2>About me</h2>
                 <p>I'm currently a student at Lambda School studying to be a web developer. Prior to my coding journey I spent the past 

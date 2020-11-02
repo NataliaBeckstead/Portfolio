@@ -21,7 +21,7 @@ const SkillsWrapper = styled.div `
 
 const Skills = () => {
     return (
-        <SkillsConteiner>
+        <SkillsConteiner id="skills">
             <SkillsWrapper>
                 <h2>Skills/Expertise</h2>
                 <h3>Web Development</h3>

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Avatar from "../images/avatar.jpg";
+import TopNavigation from "./TopNavigation";
 
 
 const HeaderContainer = styled.div `
@@ -53,6 +54,7 @@ const Header = () => {
     return (
         <HeaderContainer>
             <MainHodor>
+                <TopNavigation />
                 <h1>Natalia Beckstead</h1>
                 <h2>Full Stack Web Developer</h2>
                 <WrapDiv1>

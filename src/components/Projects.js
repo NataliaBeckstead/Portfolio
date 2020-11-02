@@ -59,7 +59,7 @@ const Photo = styled.img `
 
 const Projects = () => {
     return (
-        <ProjectsConteiner>
+        <ProjectsConteiner id="projects">
             <ProjectsWrapper>
                 <h2>Projects</h2>
                 <CardHodor>
