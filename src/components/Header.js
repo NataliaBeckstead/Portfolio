@@ -5,11 +5,10 @@ import TopNavigation from "./TopNavigation"
 
 
 const HeaderContainer = styled.div `
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 1rem;
     @media (max-width: 800px) {
         flex-direction: column-reverse;
     }
@@ -52,9 +51,10 @@ const Photo = styled.img `
 
 const Header = () => { 
     return (
+        <>
+        <TopNavigation />
         <HeaderContainer>
             <MainHodor>
-                <TopNavigation />
                 <h1>Natalia Beckstead</h1>
                 <h2>Full Stack Web Developer</h2>
                 <WrapDiv1>
@@ -73,6 +73,7 @@ const Header = () => {
             </MainHodor>
             <Photo src={Avatar} alt="Profile photo"></Photo>
         </HeaderContainer>
+        </>
     );
 };
 
