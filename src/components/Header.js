@@ -65,8 +65,12 @@ const Header = () => {
                     <i class="fas fa-map-marker-alt"></i>
                     <p>Salt Lake City, UT</p>
                 </WrapDiv2>
-                <IconHodor>
+                <WrapDiv2>
                     <a href="https://github.com/NataliaBeckstead" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/NataliaBeckstead" target="_blank"><p>https://github.com/NataliaBeckstead</p></a>
+                </WrapDiv2>
+                <IconHodor>
+                    
                     <a href="https://www.linkedin.com/in/natalia-beckstead/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://www.instagram.com/toosphoto/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </IconHodor>
