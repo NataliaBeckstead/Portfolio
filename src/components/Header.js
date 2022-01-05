@@ -66,9 +66,9 @@ const Header = () => {
                     <p>Salt Lake City, UT</p>
                 </WrapDiv2>
                 <IconHodor>
-                    <a href="https://github.com/NataliaBeckstead"><i class="fab fa-github"></i></a>
-                    {/* <i class="fab fa-linkedin-in"></i> */}
-                    <a href="https://www.instagram.com/toosphoto/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/NataliaBeckstead" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/natalia-beckstead/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/toosphoto/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </IconHodor>
             </MainHodor>
             <Photo src={Avatar} alt="Profile photo"></Photo>

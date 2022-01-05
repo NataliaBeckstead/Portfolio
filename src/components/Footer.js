@@ -19,9 +19,9 @@ const Footer = () => {
     return (
         <FooterConteiner>
             <FooterWrapper>
-                <a href="https://github.com/NataliaBeckstead"><i class="fab fa-github"></i></a>
-                {/* <i class="fab fa-linkedin-in"></i> */}
-                <a href="https://www.instagram.com/toosphoto/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/NataliaBeckstead" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/natalia-beckstead/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/toosphoto/" target="_blank"><i class="fab fa-instagram"></i></a>
             </FooterWrapper>
         </FooterConteiner>
     );
