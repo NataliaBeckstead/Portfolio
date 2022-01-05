@@ -20,9 +20,10 @@ const About = () => {
         <AboutContainer id='about'>
             <Wrapper>
                 <h2>About me</h2>
-                <p>I'm currently a student at Lambda School studying to be a web developer. Prior to my coding journey I spent the past 
-                    10 years working as a photographer. I gravitate towards work that allows me to express my ideas in a creative way. I am happy to have found coding as another means for me to challenge myself in a form of creative expression.
-                    I will complete my training later this year and will be excited to continue my career working in the tech industry.</p>
+                <p>Greetings. My name is Natalia Beckstead and I'm a full stack web developer with a background in commercial and art photography. 
+                    Because of my background in art, I'm passionate about great designs and beautiful colors. I'm also strong with HTML, CSS, Sass, 
+                    Less, JavaScript, React, Redux, Node, SQL, Python, Photoshop, Illustrator, Slack, Trello. I served as a professional photographer 
+                    for years which developed my communication and time-management skills to a huge degree.</p>
             </Wrapper>
         </AboutContainer>
     );
