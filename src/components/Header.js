@@ -20,30 +20,15 @@ const MainHodor = styled.div `
     }
 `;
 
-const WrapDiv1 = styled.div `
+const WrapDiv = styled.div `
     display: flex;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     @media (max-width: 500px) {
         margin-left: 2rem;
     }
 `;
 
-const WrapDiv2 = styled.div `
-    display: flex;
-    align-items: center;
-    @media (max-width: 500px) {
-        margin-left: 2rem;
-    }
-`;
-
-const IconHodor = styled.div `
-    display: flex;
-    margin-top: 4rem;
-    @media (max-width: 500px) {
-        margin-left: 2rem;
-    }
-`;
 const Photo = styled.img `
     border-radius: 50%;
     max-width: 40%;
@@ -57,23 +42,26 @@ const Header = () => {
             <MainHodor>
                 <h1>Natalia Beckstead</h1>
                 <h2>Full Stack Web Developer</h2>
-                <WrapDiv1>
+                <WrapDiv>
                     <i class="far fa-envelope"></i>
                     <a href = "mailto: nataliabeckstead@gmail.com">nataliabeckstead@gmail.com</a>
-                </WrapDiv1>
-                <WrapDiv2>
+                </WrapDiv>
+                <WrapDiv>
                     <i class="fas fa-map-marker-alt"></i>
-                    <p>Salt Lake City, UT</p>
-                </WrapDiv2>
-                <WrapDiv2>
+                    <p style={{ margin: 0 }}>&nbsp;Salt Lake City, UT</p>
+                </WrapDiv>
+                <WrapDiv>
                     <a href="https://github.com/NataliaBeckstead" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://github.com/NataliaBeckstead" target="_blank"><p>https://github.com/NataliaBeckstead</p></a>
-                </WrapDiv2>
-                <IconHodor>
-                    
+                    <a href="https://github.com/NataliaBeckstead" target="_blank">https://github.com/NataliaBeckstead</a>
+                </WrapDiv>
+                <WrapDiv>
                     <a href="https://www.linkedin.com/in/natalia-beckstead/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/natalia-beckstead/" target="_blank">https://www.linkedin.com/in/natalia-beckstead</a>
+                </WrapDiv>
+                <WrapDiv>
                     <a href="https://www.instagram.com/toosphoto/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </IconHodor>
+                    <a href="https://www.instagram.com/toosphoto/" target="_blank">https://www.instagram.com/toosphoto</a>
+                </WrapDiv>
             </MainHodor>
             <Photo src={Avatar} alt="Profile photo"></Photo>
         </HeaderContainer>
