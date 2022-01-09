@@ -3,43 +3,12 @@ import styled from "styled-components"
 import Avatar from "../images/avatar.jpg"
 import TopNavigation from "./TopNavigation"
 
-
-const HeaderContainer = styled.div `
-    min-height: 90vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    @media (max-width: 800px) {
-        flex-direction: column-reverse;
-    }
-`;
-
-const MainHodor = styled.div `
-    @media (max-width: 500px) {
-        text-align: center;
-    }
-`;
-
-const WrapDiv = styled.div `
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    @media (max-width: 500px) {
-        margin-left: 2rem;
-    }
-`;
-
-const Photo = styled.img `
-    border-radius: 50%;
-    max-width: 40%;
-`;
-
 const Header = () => { 
     return (
         <>
         <TopNavigation />
         <HeaderContainer>
-            <MainHodor>
+            <MainContainer>
                 <h1>Natalia Beckstead</h1>
                 <h2>Full Stack Web Developer</h2>
                 <WrapDiv>
@@ -62,7 +31,7 @@ const Header = () => {
                     <a href="https://www.instagram.com/toosphoto/" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.instagram.com/toosphoto/" target="_blank">https://www.instagram.com/toosphoto</a>
                 </WrapDiv>
-            </MainHodor>
+            </MainContainer>
             <Photo src={Avatar} alt="Profile photo"></Photo>
         </HeaderContainer>
         </>
@@ -70,3 +39,33 @@ const Header = () => {
 };
 
 export default Header;
+
+const HeaderContainer = styled.div `
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media (max-width: 800px) {
+        flex-direction: column-reverse;
+    }
+`
+
+const MainContainer = styled.div `
+    @media (max-width: 500px) {
+        text-align: center;
+    }
+`
+
+const WrapDiv = styled.div `
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    @media (max-width: 500px) {
+        margin-left: 2rem;
+    }
+`
+
+const Photo = styled.img `
+    border-radius: 50%;
+    max-width: 40%;
+`
