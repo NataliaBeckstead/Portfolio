@@ -1,20 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const AboutContainer = styled.div `
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-`;
-
-const Wrapper = styled.div `
-    width: 80%;
-    @media (max-width: 500px) {
-        width: 95%;
-    }
-`;
-
 const About = () => {
     return (
         <AboutContainer id='about'>
@@ -26,7 +12,21 @@ const About = () => {
                     for years which developed my communication and time-management skills to a huge degree.</p>
             </Wrapper>
         </AboutContainer>
-    );
-};
+    )
+}
 
 export default About;
+
+const AboutContainer = styled.div `
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+`
+
+const Wrapper = styled.div `
+    width: 80%;
+    @media (max-width: 500px) {
+        width: 95%;
+    }
+`

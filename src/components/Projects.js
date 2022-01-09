@@ -4,59 +4,6 @@ import PicM from "../images/mp.jpg"
 import Nasa from "../images/ns.jpg"
 import Todo from "../images/todo.jpg"
 
-const ProjectsConteiner = styled.div `
-    display: flex;
-    justify-content: center;
-`;
-
-const ProjectsWrapper = styled.div `
-    width: 80%;
-    @media (max-width: 500px) {
-        width: 95%;
-    }
-`;
-
-const CardHodor = styled.div `
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-`;
-
-const Card = styled.div `
-    width: 45%;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 12px;
-    padding: 1%;
-    margin-bottom: 2rem;
-    @media (max-width: 800px) {
-        flex-direction: column;
-        width: 100%;
-      }
-`;
-
-const SkillHodor = styled.div `
-    display: flex;
-    flex-wrap: wrap;
-`;
-
-const Skill = styled.div `
-    background-color: #376f9e;
-    color: rgb(230, 230, 230);
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    border-radius: 16px;
-    padding: 0.2rem 0.5rem 0.3rem 0.5rem;
-    margin-top: 0.5rem;
-`;
-
-const Photo = styled.img `
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-`;
-
-
 const Projects = () => {
     return (
         <ProjectsConteiner id="projects">
@@ -105,7 +52,59 @@ const Projects = () => {
                 </CardHodor>
             </ProjectsWrapper>
         </ProjectsConteiner>
-    );
-};
+    )
+}
 
 export default Projects;
+
+const ProjectsConteiner = styled.div `
+    display: flex;
+    justify-content: center;
+`
+
+const ProjectsWrapper = styled.div `
+    width: 80%;
+    @media (max-width: 500px) {
+        width: 95%;
+    }
+`
+
+const CardHodor = styled.div `
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+`
+
+const Card = styled.div `
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    padding: 1%;
+    margin-bottom: 2rem;
+    @media (max-width: 800px) {
+        flex-direction: column;
+        width: 100%;
+      }
+`
+
+const SkillHodor = styled.div `
+    display: flex;
+    flex-wrap: wrap;
+`
+
+const Skill = styled.div `
+    background-color: #376f9e;
+    color: rgb(230, 230, 230);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    border-radius: 16px;
+    padding: 0.2rem 0.5rem 0.3rem 0.5rem;
+    margin-top: 0.5rem;
+`
+
+const Photo = styled.img `
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+`

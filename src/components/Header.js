@@ -35,10 +35,10 @@ const Header = () => {
             <Photo src={Avatar} alt="Profile photo"></Photo>
         </HeaderContainer>
         </>
-    );
-};
+    )
+}
 
-export default Header;
+export default Header
 
 const HeaderContainer = styled.div `
     min-height: 90vh;

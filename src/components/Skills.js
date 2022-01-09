@@ -4,21 +4,6 @@ import VsLogo from "../images/vss.png"
 import PhLogo from "../images/ph.png"
 import IllustrLogo from "../images/ill.png"
 
-const SkillsConteiner = styled.div `
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-`;
-
-const SkillsWrapper = styled.div `
-    width: 80%;
-    @media (max-width: 500px) {
-        width: 95%;
-    }
-`;
-
-
-
 const Skills = () => {
     return (
         <SkillsConteiner id="skills">
@@ -42,7 +27,20 @@ const Skills = () => {
                 </div>
             </SkillsWrapper>
         </SkillsConteiner>
-    );
-};
+    )
+}
 
 export default Skills;
+
+const SkillsConteiner = styled.div `
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+`
+
+const SkillsWrapper = styled.div `
+    width: 80%;
+    @media (max-width: 500px) {
+        width: 95%;
+    }
+`
