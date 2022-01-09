@@ -1,20 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 
-const FooterConteiner = styled.div `
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-`;
-
-const FooterWrapper = styled.div `
-    width: 80%;
-    @media (max-width: 500px) {
-        width: 95%;
-    }
-`;
-
 const Footer = () => {
     return (
         <FooterConteiner>
@@ -24,7 +10,21 @@ const Footer = () => {
                     <a href="https://www.instagram.com/toosphoto/" target="_blank"><i class="fab fa-instagram"></i></a>
             </FooterWrapper>
         </FooterConteiner>
-    );
-};
+    )
+}
 
 export default Footer;
+
+const FooterConteiner = styled.div `
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+`
+
+const FooterWrapper = styled.div `
+    width: 80%;
+    @media (max-width: 500px) {
+        width: 95%;
+    }
+`
